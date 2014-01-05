@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Save Magnet</title>
+<link rel="stylesheet" type="text/css" href="css/downloadMagnet.css" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script type="text/javascript" src="js/jquery-1.7.js"></script>
+
+<script type="text/javascript">
+chrome.extension.onRequest.addListener(function (request, sender) {
+
+	var oSelect = $('#downloadLocations');
+
+	if (request.dirs.length === 0) {
+		oSelect.attr('disabled', 'disabled');
+		$('<option></option>')
+			.text('< Default Directory >')
+			.val('')
+			.appendTo(oSelect);
+	} else {
+		$.each(request.dirs, function(idx, dir) {
+			$('<option></option>')
+				.text(dir.label)
+				.val(dir.dir)
+				.appendTo(oSelect);
+		});
+	}
+
+	$('#save').click(function (e) {
+		chrome.extension.sendRequest({ 'url': request.url, 'dir': oSelect.val() });
+		window.close();
+	});
+
+	$('#cancel').click(function (e) {
+		window.close();
+	});
+
+	$(window).keydown(function(event) {
+		if(event.which == 27) {
+			event.preventDefault();
+			window.close();
+		}
+	});
+
+});
+</script>
+
+</head>
+
+<body>
+
+<ul id="container">
+	<li>
+		<label id="downloadLabel" for="downloadLocations">Save in folder:</label>
+		<select id="downloadLocations"></select>
+		<div class="clear"></div>
+	</li>
+</ul>
+
+<button id="save" accesskey="S">Save</button>
+<button id="cancel" accesskey="C">Cancel</button>
+<div class="clear"></div>
+
+</body>
+</html>

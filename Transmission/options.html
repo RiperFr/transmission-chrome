@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Remote Transmission Options</title>
+    <link rel="stylesheet" type="text/css" href="css/options.css"/>
+
+    <script type="text/javascript" src="js/jquery-1.7.js"></script>
+</head>
+
+<body>
+
+<div id="container">
+    <fieldset>
+        <legend>Server</legend>
+        <ul>
+            <li>
+                <label class="section" for="ip">Address</label>
+                <select id="protocol">
+                    <option>http</option>
+                    <option>https</option>
+                </select> ://
+                <input id="ip" type="text"/> :
+                <input id="port" type="text" maxlength="5"/> /
+                <input id="path" type="text"/> /
+                <div class="clear"></div>
+            </li>
+            <li>
+                <label class="section" for="rpc">RPC Path</label>
+                <input id="rpcPath" type="text"/>
+
+                <div class="clear"></div>
+            </li>
+            <li>
+                <label class="section" for="web">Web Path</label>
+                <input id="webPath" type="text"/>
+
+                <div class="clear"></div>
+            </li>
+            <li><br/></li>
+            <li>
+                <label class="section" for="user">Username</label>
+                <input id="user" type="password"/>
+
+                <div class="clear"></div>
+            </li>
+            <li>
+                <label class="section" for="pass">Password</label>
+                <input id="pass" type="password"/>
+
+                <div class="clear"></div>
+            </li>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend>General</legend>
+        <ul>
+            <li>
+                <label class="section" for="notifications">
+                    Desktop Notification<br/>
+                    <span class="small">(when a torrent finishes)</span>
+                </label>
+                <input id="notifications" type="checkbox"/>
+
+                <div class="clear"></div>
+            </li>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend>Download</legend>
+        <ul>
+            <li>
+                <label class="section">
+                    Default Click Action
+                </label>
+
+                <div class="options">
+                    <input id="dlremote" name="clickaction" type="radio"/>
+                    <label for="dlremote">Download the torrent file with the remote Transmission server</label><br/>
+                    <span class="small" style="padding-left: 17px;">(to download locally, right-click and select "Save Link As...")</span><br/>
+                    <input id="dllocal" name="clickaction" type="radio"/>
+                    <label for="dllocal">Download the torrent file locally</label><br/>
+                    <span class="small" style="padding-left: 17px;">(to download using the remote Transmission server, right-click and select "Download with Remote Transmission")</span>
+                </div>
+                <div class="clear"></div>
+            </li>
+            <li style="display:none;">
+                <label class="section">Location</label>
+
+                <div class="options">
+                    <input id="dldefault" name="dlocation" type="radio"
+                           onclick="document.getElementById('dlpopup').disabled = false;"/>
+                    <label for="dldefault">Always use the default directory</label><br/>
+                    <blockquote>
+                        <input id="dlpopup" type="checkbox"/>
+                        <label for="dlpopup">Show download popup</label><br/>
+                    </blockquote>
+
+
+                    <input id="dlcustom" name="dlocation" type="radio"
+                           onclick="document.getElementById('dlpopup').disabled = true;"/>
+                    <label for="dlcustom">Choose a custom directory</label><br/>
+                    <table id="customdirs">
+                        <tr>
+                            <th>Label</th>
+                            <th>Directory</th>
+                            <th></th>
+                        </tr>
+                        <tr class="addcustom">
+                            <td><input id="customlabel" class="label" type="text"/></td>
+                            <td><input id="customdir" class="dir" type="text"/></td>
+                            <td>
+                                <button id="adddir"
+                                        onclick="addDir(document.getElementById('customlabel').value, document.getElementById('customdir').value);">
+                                    Add
+                                </button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="clear"></div>
+            </li>
+        </ul>
+    </fieldset>
+    <button id="save">Save</button>
+    <span id="saved">Settings saved.</span>
+</div>
+
+<script type="text/javascript" src="js/options.js"></script>
+</body>
+</html>
