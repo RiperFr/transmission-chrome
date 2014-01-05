@@ -7,7 +7,7 @@
 
 <body>
 
-<div id="header">
+<div id="header" title="Riper Transmission (Click to open full interface)">
 	<div id="global_stats">
 		Torrents: <b><span id="global_torrents"> </span></b><br />
 		Downloading: <b><span id="global_downloading"> </span></b> Seeding: <b><span id="global_seeding"> </span></b><br />
@@ -19,16 +19,17 @@
 </div>
 
 <div id="bar">
-	<span id="filter">Search :
-		<input id="filter_input" type="text" />
+    <span class="filter_text">Show </span>
+    <select id="filter_type">
+        <option value="0">All</option>
+        <option value="4">Downloading</option>
+        <option value="8">Seeding</option>
+        <option value="16">Paused/Completed</option>
+    </select>
+	<span id="filter">
+		<input id="filter_input" type="text" placeholder="Filter"/>
 		<div id="filter_clear"></div>
 	</span>
-	<select id="filter_type">
-		<option value="0">All</option>
-		<option value="4">Downloading</option>
-		<option value="8">Seeding</option>
-		<option value="16">Paused/Completed</option>
-	</select>
 </div>
 
 <div id="status">No torrents</div>

@@ -4,6 +4,7 @@ body {
     padding: 4px;
     color: #222;
     font: 13px Verdana, Arial, Helvetica, sans-serif;
+    font: 80% "lucida grande", Tahoma, Verdana, Arial, Helvetica, sans-serif;
     cursor: default;
     -khtml-user-select: none
     -webkit-overflow-scrolling: touch;
@@ -117,24 +118,29 @@ input[type="text"] {
 #turtle_button.on:active {
     background-position: -32px -44px
 }
-
+.filter_text{
+    float: left;
+    display: inline-bock;
+    margin-right:2px;
+}
 #filter_type {
     float: left;
     height: 18px;
     margin: 2px 0 0 2px
 }
-
 #filter {
     float: left;
     position: relative;
-    margin-right: 4px
+    margin-left: 4px
 }
 
 #filter_input {
     display: inline-block;
     height: 14px;
+    padding: 2px;
     padding-right: 19px;
     margin: 0
+
 }
 
 #filter_clear {
@@ -295,6 +301,7 @@ input[type="text"] {
     width: 12px;
     height: 10px;
     background-size: 100% 100%;
+    cursor: pointer;
 }
 
 .pause {
