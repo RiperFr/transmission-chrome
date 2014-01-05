@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be3deba4-4e62-4b18-9da2-ed9f723744fb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Transmission/js/background.js" afterPath="$PROJECT_DIR$/Transmission/js/background.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Transmission/js/events.js" afterPath="$PROJECT_DIR$/Transmission/js/events.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Transmission/js/inject.js" afterPath="$PROJECT_DIR$/Transmission/js/inject.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Transmission/manifest.json" afterPath="$PROJECT_DIR$/Transmission/manifest.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Transmission/css/popup.css" afterPath="$PROJECT_DIR$/Transmission/css/popup.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Transmission/popup.html" afterPath="$PROJECT_DIR$/Transmission/popup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Transmission/js/torrentParsing.js" afterPath="$PROJECT_DIR$/Transmission/js/torrentParsing.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="transmission.iws" />
@@ -32,34 +34,34 @@
       <file leaf-file-name="manifest.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Transmission/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="53" selection-start="926" selection-end="926" vertical-scroll-proportion="-17.115385" vertical-offset="82" max-vertical-offset="714">
+            <state line="34" column="61" selection-start="1057" selection-end="1069" vertical-scroll-proportion="-17.73077" vertical-offset="117" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popup.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Transmission/js/popup.js">
+      <file leaf-file-name="inject.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Transmission/js/inject.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="10" selection-start="4660" selection-end="4666" vertical-scroll-proportion="-18.68" vertical-offset="1828" max-vertical-offset="2448">
+            <state line="13" column="23" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="downloadTorrent.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Transmission/downloadTorrent.html">
+      <file leaf-file-name="torrentParsing.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Transmission/js/torrentParsing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="9" selection-start="544" selection-end="544" vertical-scroll-proportion="90.76923" vertical-offset="2700" max-vertical-offset="3655">
+            <state line="32" column="45" selection-start="1031" selection-end="1031" vertical-scroll-proportion="-16.6" vertical-offset="129" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Transmission/test.html">
+      <file leaf-file-name="background.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Transmission/js/background.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="629">
+            <state line="198" column="58" selection-start="7508" selection-end="7508" vertical-scroll-proportion="0.6912929" vertical-offset="3104" max-vertical-offset="5304">
               <folding />
             </state>
           </provider>
@@ -68,16 +70,34 @@
       <file leaf-file-name="popup.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Transmission/popup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="677" selection-end="677" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="884">
+            <state line="19" column="0" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="884">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="class.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Transmission/js/class.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="31" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.5165877" vertical-offset="336" max-vertical-offset="2040">
+            <state line="72" column="36" selection-start="3357" selection-end="3357" vertical-scroll-proportion="0.0" vertical-offset="1457" max-vertical-offset="2040">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Transmission/css/common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basket.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Transmission/css/basket.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
               <folding />
             </state>
           </provider>
@@ -86,34 +106,16 @@
       <file leaf-file-name="popup.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Transmission/css/popup.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="303" column="19" selection-start="5409" selection-end="5409" vertical-scroll-proportion="-15.12" vertical-offset="4773" max-vertical-offset="6137">
+            <state line="181" column="15" selection-start="3195" selection-end="3195" vertical-scroll-proportion="0.0" vertical-offset="2940" max-vertical-offset="6137">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="options.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Transmission/js/options.js">
+      <file leaf-file-name="events.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Transmission/js/events.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="2" selection-start="6239" selection-end="6239" vertical-scroll-proportion="-94.52" vertical-offset="0" max-vertical-offset="2567">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basket.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Transmission/basket.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="391">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="downloadMagnet.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Transmission/downloadMagnet.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1224">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="952">
               <folding />
             </state>
           </provider>
@@ -137,24 +139,25 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Transmission/js/background.js" />
         <option value="$PROJECT_DIR$/Transmission/background.html" />
         <option value="$PROJECT_DIR$/Transmission/options.html" />
         <option value="$PROJECT_DIR$/Transmission/js/options.js" />
         <option value="$PROJECT_DIR$/Transmission/js/popup.js" />
-        <option value="$PROJECT_DIR$/Transmission/manifest.json" />
         <option value="$PROJECT_DIR$/Transmission/popup.html" />
-        <option value="$PROJECT_DIR$/Transmission/css/popup.css" />
         <option value="$PROJECT_DIR$/Transmission/js/class.js" />
+        <option value="$PROJECT_DIR$/Transmission/css/popup.css" />
+        <option value="$PROJECT_DIR$/Transmission/js/events.js" />
+        <option value="$PROJECT_DIR$/Transmission/manifest.json" />
+        <option value="$PROJECT_DIR$/Transmission/js/inject.js" />
+        <option value="$PROJECT_DIR$/Transmission/js/torrentParsing.js" />
+        <option value="$PROJECT_DIR$/Transmission/js/background.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="width" value="1064" />
+    <option name="height" value="860" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -182,12 +185,23 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="transmission" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transmission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transmission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -242,12 +256,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../transmission-ui" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -303,15 +317,20 @@
       <created>1388775768920</created>
       <updated>1388775768920</updated>
     </task>
+    <task id="LOCAL-00001" summary="small modifications">
+      <created>1388891987596</created>
+      <updated>1388891987596</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="0" y="0" width="1064" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3409091" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -320,11 +339,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12113127" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23353294" sideWeight="0.65909094" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -337,56 +357,16 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="small modifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="small modifications" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Transmission/js/background.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="306" column="3" selection-start="11444" selection-end="11444" vertical-scroll-proportion="0.0" vertical-offset="5202" max-vertical-offset="5304">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Transmission/background.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="5576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Transmission/js/background.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="306" column="3" selection-start="11444" selection-end="11444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5304">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Transmission/downloadMagnet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1224">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Transmission/tree.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4938016" vertical-offset="1446" max-vertical-offset="3383">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Transmission/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="994">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Transmission/downloadTorrent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="9" selection-start="544" selection-end="544" vertical-scroll-proportion="90.76923" vertical-offset="2700" max-vertical-offset="3655">
+        <state line="20" column="9" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="2700" max-vertical-offset="3655">
           <folding />
         </state>
       </provider>
@@ -409,51 +389,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="14" selection-start="2087" selection-end="2087" vertical-scroll-proportion="-5.490196" vertical-offset="859" max-vertical-offset="2312">
           <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#li#0;n#ul#0;n#fieldset#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#li#0;n#ul#0;n#fieldset#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#fieldset#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#li#0;n#ul#0;n#fieldset#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#li#0;n#ul#0;n#fieldset#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#fieldset#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Transmission/js/popup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="10" selection-start="4660" selection-end="4666" vertical-scroll-proportion="-18.68" vertical-offset="1828" max-vertical-offset="2448">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Transmission/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="53" selection-start="926" selection-end="926" vertical-scroll-proportion="-17.115385" vertical-offset="82" max-vertical-offset="714">
+        <state line="135" column="10" selection-start="4660" selection-end="4666" vertical-scroll-proportion="0.0" vertical-offset="1828" max-vertical-offset="2448">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Transmission/js/options.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="2" selection-start="6239" selection-end="6239" vertical-scroll-proportion="-94.52" vertical-offset="0" max-vertical-offset="2567">
+        <state line="139" column="2" selection-start="6239" selection-end="6239" vertical-scroll-proportion="0.0" vertical-offset="2363" max-vertical-offset="2567">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Transmission/popup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="677" selection-end="677" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Transmission/css/popup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="303" column="19" selection-start="5409" selection-end="5409" vertical-scroll-proportion="-15.12" vertical-offset="4773" max-vertical-offset="6137">
+        <state line="19" column="0" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="884">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Transmission/js/class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="31" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.5165877" vertical-offset="336" max-vertical-offset="2040">
+        <state line="72" column="36" selection-start="3357" selection-end="3357" vertical-scroll-proportion="0.0" vertical-offset="1457" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transmission/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transmission/css/basket.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transmission/css/popup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="181" column="15" selection-start="3195" selection-end="3195" vertical-scroll-proportion="0.0" vertical-offset="2940" max-vertical-offset="6137">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transmission/js/events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="681">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transmission/js/torrentParsing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="45" selection-start="1031" selection-end="1031" vertical-scroll-proportion="-16.6" vertical-offset="129" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transmission/js/inject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="23" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transmission/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="61" selection-start="1057" selection-end="1069" vertical-scroll-proportion="-17.73077" vertical-offset="117" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transmission/js/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="58" selection-start="7508" selection-end="7508" vertical-scroll-proportion="0.6912929" vertical-offset="3104" max-vertical-offset="5304">
           <folding />
         </state>
       </provider>

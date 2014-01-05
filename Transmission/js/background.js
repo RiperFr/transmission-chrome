@@ -196,7 +196,7 @@ function notificationRefresh() {
         }
     });
 
-    notificationTimer = setTimeout(notificationRefresh, 30000);
+    notificationTimer = setTimeout(notificationRefresh, 15000);
 }
 
 var cnt = 0;
@@ -273,7 +273,7 @@ function contextMenuClick(info, tab) {
 
 // only add to context menu for links
 chrome.contextMenus.create({
-    'title': 'Download with Remote Transmission'
+    'title': 'Download with Riper Drive'
     ,	'contexts': [ 'link' ]
     ,	'onclick': contextMenuClick
     //TODO: watch this http://code.google.com/p/chromium/issues/detail?id=84024
